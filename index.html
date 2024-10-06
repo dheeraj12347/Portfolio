@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dheeraj Bansal's Web Development Portfolio">
+    <title>Dheeraj Bansal | Full Stack Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dheeraj Bansal</h1>
+            <p>Full Stack Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I'm Dheeraj Bansal, a 24-year-old Full Stack Web Developer. I graduated from KIET, Muradnagar, and have a passion for building dynamic and responsive websites. With a strong foundation in both front-end and back-end technologies, I bring designs to life and ensure seamless user experiences.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>Front-End Development</h3>
+                    <p>HTML, CSS, JavaScript, React.js, Bootstrap</p>
+                </div>
+                <div class="skill">
+                    <h3>Back-End Development</h3>
+                    <p>Node.js, Express.js, PHP, MySQL, MongoDB</p>
+                </div>
+                <div class="skill">
+                    <h3>Other Tools</h3>
+                    <p>Git, GitHub, Figma, REST APIs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project" onclick="openModal('project1')">
+                    <h3>Interactive Cybersecurity Platform</h3>
+                    <p>An educational platform for smart cities to raise cybersecurity awareness. Developed using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project" onclick="openModal('project2')">
+                    <h3>Hospital Finder</h3>
+                    <p>A web app allowing users to find hospitals, check bed availability, and view ICU and doctor availability. Built with JavaScript and MySQL.</p>
+                </div>
+                <div class="project" onclick="openModal('project3')">
+                    <h3>UsabilityHub Clone</h3>
+                    <p>A clone of the UsabilityHub website with front-end focus. Designed for user testing interactions, built with HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Popup for Project Details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-text"></div>
+        </div>
+    </div>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Interested in working together? Let's get in touch!</p>
+            <a href="mailto:dheerajbansal.dev@example.com" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dheeraj Bansal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
