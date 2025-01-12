@@ -1,0 +1,49 @@
+*{
+    height: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+.heading1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.heading2{
+    text-align: center;
+    /* height: 5rem; */
+    padding: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 10rem;
+    width: 10rem;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 2rem;
+}
+.yellow{
+    background-color: brown;
+}
+.red{
+    background-color: aqua;
+}
+.purple{
+    background-color: chocolate;
+}
+.green{
+    background-color: darkred;
+}
+.flash{
+    background-color: white;
+}
